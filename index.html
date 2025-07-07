@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Merriweather&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="logo"><img id="header-img" src="logo.png" alt="logo"></div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#features" class="nav-link">About</a></li>
+                <li><a href="#pricing" class="nav-link">Services</a></li>
+                <li><a href="#email" class="nav-link">Clients</a></li>
+                <li><a href="#surveillance" class="nav-link">Surveillance</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h3>World’s Only Consulting Detective.</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required="">
+        <input id="submit" type="submit" value="Request Investigation" class="btn">
+        </form>
+    </section>
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="desc">
+                    <h4>Criminal Case Investigation</h4>
+                    <p>We specialize in solving high-profile, unsolvable cases — from cold murders to modern cyber crimes. Observation and deduction always prevail.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-regular fa-folder-open"></i>
+                </div>
+                <div class="desc">
+                    <h4>Discrete Client Consultation</h4>
+                    <p>Clients of influence trust us for cases involving scandal, blackmail, or political sensitivity. All engagements are strictly confidential.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <div class="desc">
+                    <h4>Behavioral Analysis & Profiling</h4>
+                    <p>From criminal profiling to lie detection, we unravel motives and mental models using logic and Holmesian psychology.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-satellite"></i>
+                </div>
+                <div class="desc">
+                    <h4 id="surveillance"> Surveillance & Intelligence Gathering</h4>
+                    <p>Utilizing traditional tracking methods and modern technology, we gather intel for law enforcement, royals, and private clients.</p>
+                </div>
+            </div>
+        </section>
+        <section id="embed-video">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/BZcWlo1V0uE?si=YoqdvYY6zKTi54H9&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+            <div class="product" id="level1">
+                <div class="level">The Curious Case</div>
+                <h4>₹999</h4>
+                <p>For everyday mysteries and light consultations.</p>
+                <ul>
+                    <li>Suitable for personal, non-criminal inquiries</li>
+                    <li>Digital-only case analysis</li>
+                    <li>Response within 3 business days</li>
+                    <li>Email support</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+             <div class="product" id="level2">
+                <div class="level">The Scotland Yard Special</div>
+                <h4>₹4,999</h4>
+                <p>For mid-tier cases or when local authorities are puzzled.</p>
+                <ul>
+                    <li>Full consultation + document review</li>
+                    <li>1-on-1 client briefing</li>
+                    <li>Priority response</li>
+                    <li>Only when police fail</li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+             <div class="product" id="level3">
+                <div class="level">The Royal Engagement</div>
+                <h4>₹19,999</h4>
+                <p>For high-profile, high-risk, or extremely sensitive matters.</p>
+                <ul>
+                    <li>In-depth investigation </li>
+                    <li>Fieldwork + surveillance </li>
+                    <li>Secure communication </li>
+                    <li>Absolute confidentiality </li>
+                </ul>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="#nav-bar">Privacy Policy</a></li>
+                <li><a href="#nav-bar">Terms of Service</a></li>
+                <li><a href="#nav-bar">Contact</a></li>
+            </ul>
+            <span>
+                <p id="contact">© 2025 Holmes & Watson Consulting Detective Services</p>
+                <p>Established 1887 | Reimagined for the 21st Century</p>
+            </span>
+            <span><p class="foot">made with ❤️ by <a href="https://www.linkedin.com/in/saikat-das-698a5b2a2/" target="_blank">@saikat</a></p></span>
+        </footer>
+    </div>
+</body>
+</html>
